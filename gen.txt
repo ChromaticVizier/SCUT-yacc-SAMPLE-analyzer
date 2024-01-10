@@ -1,0 +1,3 @@
+bison -d par.y
+flex lex.l
+gcc par.tab.c lex.yy.c -olm
